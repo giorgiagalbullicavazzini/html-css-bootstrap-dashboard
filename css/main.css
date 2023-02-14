@@ -4,3 +4,15 @@ main {
   overflow-y: auto;
   width: calc(100vw - 4.25rem);                            /* !! provvisorio */
 }
+
+/*
+==================
+Responsive
+==================
+*/
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: calc(100vw - 9.375rem);
+  }
+}
