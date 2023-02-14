@@ -1,0 +1,17 @@
+#sidebar {
+  background-color: var(--sidebar-color);
+  height: 100%;
+  width: 4.25rem;                                   /* !! provvisorio */
+}
+
+/*
+==================
+Responsive
+==================
+*/
+
+@media screen and (min-width: 1200px) {
+  #sidebar {
+    width: 9.375rem;
+  }
+}

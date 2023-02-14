@@ -1,1 +1,7 @@
 @import url(reset.css);
+@import url(var.css);
+
+@import url(common.css);
+@import url(header.css);
+@import url(main.css);
+@import url(sidebar.css);
