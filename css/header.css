@@ -1,4 +1,20 @@
 header {
-  background-color: lightcoral;
   height: 4.375rem;
+}
+
+header nav {
+  background-color: var(--white-color);
+  width: 100%;
+}
+
+header nav .img {
+  width: 5.3125rem;
+}
+
+header nav .img img {
+  width: 70%;
+}
+
+header nav .menu {
+  width: 3.125rem;
 }
