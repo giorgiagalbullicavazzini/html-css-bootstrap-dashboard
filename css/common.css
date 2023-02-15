@@ -2,11 +2,11 @@ body {
   background-color: var(--primary-color);
 }
 
-.ms-container {
-  height: calc(100vh - 4.375rem);
-}
-
 img {
   display: block;
   width: 100%;
+}
+
+.ms-container {
+  height: calc(100vh - 4.375rem);
 }
