@@ -7,3 +7,7 @@ main #top-main {
   background-color: var(--top-main-color);
   color: var(--bs-white);
 }
+
+main #top-main .rounded-pill {
+  background-color: #165bba;
+}
