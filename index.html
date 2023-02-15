@@ -43,11 +43,22 @@
 
         <!-- Navbar -->
         <div class="col-auto">
-          <ul class="d-flex list-unstyled mb-0">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+          <ul class="d-flex align-items-center list-unstyled mb-0">
+            <li class="d-none d-lg-block">1</li>
+            <li class="d-none d-lg-block">2</li>
+            <li class="d-none d-lg-block">3</li>
+            <li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </li>
           </ul>
         </div>
         <!-- // Navbar -->
