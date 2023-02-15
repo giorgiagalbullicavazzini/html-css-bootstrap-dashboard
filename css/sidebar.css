@@ -1,5 +1,7 @@
 #sidebar {
   background-color: var(--sidebar-color);
+  background-image: url(../img/sidebar-bg.png);
+  background-size: cover;
   color: var(--bs-white);
 }
 
