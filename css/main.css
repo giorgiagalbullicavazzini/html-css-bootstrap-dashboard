@@ -1,18 +1,9 @@
 main {
-  background-color: pink;
-  height: 100%;
   overflow-y: auto;
-  width: calc(100vw - 4.25rem);                            /* !! provvisorio */
+  width: 100%;
 }
 
-/*
-==================
-Responsive
-==================
-*/
-
-@media screen and (min-width: 1200px) {
-  main {
-    width: calc(100vw - 9.375rem);
-  }
+main #top-main {
+  background-color: var(--top-main-color);
+  color: var(--bs-white);
 }
