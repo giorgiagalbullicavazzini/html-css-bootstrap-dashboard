@@ -11,3 +11,12 @@ main #top-main {
 main #top-main .rounded-pill {
   background-color: #165bba;
 }
+
+main #bottom-main table th:not(:first-child),
+main #bottom-main table td:not(:first-child) {
+  text-align: center;
+}
+
+main #bottom-main table img {
+  width: 30px;
+}
