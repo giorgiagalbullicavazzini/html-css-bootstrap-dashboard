@@ -1,7 +1,6 @@
 #sidebar {
   background-color: var(--sidebar-color);
-  height: 100%;
-  width: 4.25rem;                                   /* !! provvisorio */
+  color: var(--bs-white);
 }
 
 /*
@@ -10,8 +9,12 @@ Responsive
 ==================
 */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   #sidebar {
     width: 9.375rem;
+  }
+
+  #sidebar ul .fa-solid {
+    width: 30px;
   }
 }
