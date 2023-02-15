@@ -20,3 +20,13 @@ main #bottom-main table td:not(:first-child) {
 main #bottom-main table img {
   width: 30px;
 }
+
+.offcanvas.offcanvas-end {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .offcanvas.offcanvas-end {
+    width: 50%;
+  }
+}
