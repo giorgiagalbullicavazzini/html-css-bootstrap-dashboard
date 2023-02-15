@@ -3,6 +3,14 @@
   color: var(--bs-white);
 }
 
+#sidebar ul li:hover {
+  background-color: var(--bs-gray);
+}
+
+#sidebar ul .fa-solid.fa-gear {
+  font-size: 18px;
+}
+
 /*
 ==================
 Responsive
