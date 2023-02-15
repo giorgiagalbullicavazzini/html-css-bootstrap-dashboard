@@ -21,6 +21,10 @@ main #top-main .fa-solid.fa-angles-right {
   font-size: .875rem;
 }
 
+main #bottom-main h2 {
+  font-size: 1.5625rem;
+}
+
 main #bottom-main table th:not(:first-child),
 main #bottom-main table td:not(:first-child) {
   text-align: center;
