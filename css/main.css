@@ -8,8 +8,17 @@ main #top-main {
   color: var(--bs-white);
 }
 
+main #top-main .ms-title {
+  font-size: 1.875rem;
+  font-weight: 500;
+}
+
 main #top-main .rounded-pill {
   background-color: #165bba;
+}
+
+main #top-main .fa-solid.fa-angles-right {
+  font-size: .875rem;
 }
 
 main #bottom-main table th:not(:first-child),
@@ -18,12 +27,18 @@ main #bottom-main table td:not(:first-child) {
 }
 
 main #bottom-main table img {
-  width: 30px;
+  width: 1.875rem;
 }
 
 .offcanvas.offcanvas-end {
   width: 100%;
 }
+
+/*
+==================
+Responsive
+==================
+*/
 
 @media screen and (min-width: 992px) {
   .offcanvas.offcanvas-end {
