@@ -25,6 +25,10 @@ main #bottom-main h2 {
   font-size: 1.5625rem;
 }
 
+main #bottom-main strong {
+  font-weight: 500;
+}
+
 main #bottom-main table th:not(:first-child),
 main #bottom-main table td:not(:first-child) {
   text-align: center;
